@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<title>Index</title>
+	<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <header>
+        <div class="container">
+            <h1>Mi Sitio Web</h1>
+        </div>
+    </header>
+
+    <main>
+        <div class="container">
+            <section class="hero">
+                <h2>Proyecto Repositorio</h2>
+                <p>Bienvenido a esta pagina. Aquí encontrarás un ejemplo de como es una pagina web basica.</p>
+            </section>
+
+            <section class="features">
+                <div class="feature-item">
+                    <h3>¿Qué cosas se utilizaron para ver el repositorio?</h3>
+                    <p>Codigo en PHP, HTML, JavaScript y MarkDown.</p>
+                    <p>Programas como Xampp, Sublime text y Git.</p>
+                    <p>El sitio web Github.</p>
+                </div>
+            </section>
+        </div>
+    </main>
+<br>
+<br>
+
+<button type="button" class="btn-confirm">
+    ¿Te gusto el ejemplo?
+</button>
+<br>
+<br>
+
+<form action="registrar_click.php" method="POST">
+                    <input type="hidden" name="registrar_visita" value="true">
+                    <button type="submit" class="btn-confirmar" onclick="return confirm('¿Quieres registrar esta visita sin mentiras?');">
+                    ¿Te gustaria guardar tu visita?
+                    </button>
+                </form>
+                <br>
+                <br>
+                
+<script src="Script.js"></script>
+
+<footer>
+    <div class="container">
+        <p>&copy; 2025 Mi Super Sitio Web. Todos los derechos reservados así que cuidado.</p>
+    </div>
+</footer>
+
+</body>
+</html>
